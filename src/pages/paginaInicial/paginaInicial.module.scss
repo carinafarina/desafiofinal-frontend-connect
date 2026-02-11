@@ -48,8 +48,7 @@ button{
 .infoDados{
     color: #205691;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
     h2, h3{
         color: #205691;
         text-align: center;
@@ -76,6 +75,7 @@ button{
         .imgMao{
             max-width: 522px;
             padding: 20px;
+            width: 100%;
         }
         p{
             text-align: center;
@@ -87,7 +87,29 @@ button{
         width: 300px;
         padding: 20px;
     }
-    .infoDados{
+    .infoDados article{
         margin: 10px;
+        width: 120px;
+        h2{
+            font-size: 30px;
+        }
+        h3{
+            font-size: 12px;
+        }
     }
+.info{
+    width: 100%;
+    justify-content: last baseline;
+    h1{
+        font-size: 80px;
+    }
+    h1, p{
+        text-align: center;
+    }
+    button{
+        margin: 20px 0;
+        font-size: 20px;
+        padding: 10px;
+    }
+}    
 }

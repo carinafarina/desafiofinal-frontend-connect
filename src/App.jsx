@@ -7,6 +7,7 @@ import Mentoria from "./pages/mentoria/Mentoria"
 import Eventospalestras from "./pages/eventosPalestras/Eventospalestras"
 import Usuario from "./pages/usuario/Usuario"
 import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
       <Route path='/eventosPalestras' element={<Eventospalestras />}/>      
       <Route path='/usuario' element={<Usuario />}/>  
      </Routes>
+     <Footer/>
    </BrowserRouter>
 
   )
